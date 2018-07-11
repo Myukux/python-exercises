@@ -1,8 +1,12 @@
 numbers = input("Podaj Liczby, odzielajac je przecinkiem: ")
 a = numbers.split(",")
-print(a)
+result = []
 for i in a:
-    for j in i:
-        i = int(i)
-        i = i * (j - 1)
-     print(i)
+    i = int(i)
+    k = 1
+    for j in range(1, i + 1):
+        k = k * j
+    result.append (str(k))
+
+result = ",".join(result)
+print(result)
