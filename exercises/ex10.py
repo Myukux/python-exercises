@@ -16,9 +16,7 @@ c = []
 for i in a:
     does_exist_in_list = False
     for j in c:
-        if i != j:
-            does_exist_in_list = False
-        else:
+        if i == j:
             does_exist_in_list = True
             break
     if not does_exist_in_list:
