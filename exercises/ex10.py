@@ -9,4 +9,5 @@ for word in result:
     if word not in result_list:
         result_list.append(word)
 
-print(result_list)
+result_words = " ".join(result_list)
+print(result_words)
