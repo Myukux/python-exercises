@@ -12,6 +12,3 @@ for letter in input_string:
 print(letter_count)
 print(number_count)
 
-# for i in a:
-#     i.isdigit()
-#     i.isalpha()
